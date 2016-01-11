@@ -6,7 +6,9 @@ Yuchen Gang and Whitney Dolan
 I. Summary 
 ShannonEnt is a Python program for calculating and plotting Shannon's Entropy for every column in a protein multiple sequence alignment. The program takes a multiple sequence alignment in fasta format and returns a plot of the entropy (with frequencies adjusted for the naturally occurring amino acid frequency, Simpson 2008) across the columns of the alignment. Users can choose to search the alignment for specific peptide sequences, adjust the plotting range, and print the amino acid frequencies of a given column range. 
 
+
 II. Usage
+
 	A. Requirements  
 		i. Python 3.4 (might run on earlier versions, no guarantees...) 
 		ii. matplotlib module must be installed
